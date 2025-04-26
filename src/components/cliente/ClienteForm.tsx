@@ -112,7 +112,7 @@ const ClienteForm: React.FC = () => {
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="contribuicao">Contribuição</Label>
+              <Label htmlFor="contribuicao">Contribuição Inicial</Label>
               <Input
                 id="contribuicao"
                 type="text"

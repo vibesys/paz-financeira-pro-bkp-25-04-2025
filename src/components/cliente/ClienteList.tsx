@@ -59,7 +59,7 @@ const ClienteList: React.FC = () => {
                 <TableHead>Plano Contratado</TableHead>
                 <TableHead>Vigência</TableHead>
                 <TableHead>Início do Plano</TableHead>
-                <TableHead>Contribuição</TableHead>
+                <TableHead>Contribuição Inicial</TableHead>
                 <TableHead>Valor Aplicado</TableHead>
                 <TableHead>Patrimônio Projetado</TableHead>
                 <TableHead className="text-right">Ações</TableHead>
