@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { useAppContext } from '@/contexts/AppContext';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -60,7 +61,7 @@ const ClienteList: React.FC = () => {
                 <TableHead>Vigência</TableHead>
                 <TableHead>Início do Plano</TableHead>
                 <TableHead>Contribuição Inicial</TableHead>
-                <TableHead>Valor Aplicado</TableHead>
+                <TableHead>Valor Total Aplicado</TableHead>
                 <TableHead>Patrimônio Projetado</TableHead>
                 <TableHead className="text-right">Ações</TableHead>
               </TableRow>
@@ -125,3 +126,4 @@ const ClienteList: React.FC = () => {
 };
 
 export default ClienteList;
+
